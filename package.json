@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "cursor": "^0.1.5",
+    "gsap": "^3.11.0",
+    "matter-js": "^0.18.0",
+    "mouse-follower": "^1.1.2",
+    "smooth-scrollbar": "^8.7.5",
+    "uuid": "^8.3.2"
+  },
+  "name": "teste-line-svg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
