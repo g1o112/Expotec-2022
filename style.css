@@ -1,0 +1,180 @@
+
+@import url('https://fonts.google.com/specimen/Nunito?query=nun');
+*
+
+{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+	background-color: #000000;
+	background-size: 1450px 1000px;
+}
+
+.around{
+	background: #C8FAE2;
+	height: 75px;
+	width: 350px;
+
+	border-radius: 75px;
+	color: #000;
+	font-size: 80px;
+	margin-left: 5px;
+
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+ p{ 
+	color: #000000;
+	font-size: 23px;
+	font-weight: bold;
+	text-shadow: 2px;
+	margin-left: 40px;
+	margin-top: 100px;
+  	margin-bottom: 100px;
+ 	margin-right: 1250px;
+  	margin-left: 80px;
+  	line-height: 1.5px;
+
+ }
+
+.container{
+	position: absolute;
+	width: 100%;
+	max-width: 1100px;
+	margin: 10px;
+	height: 800px;
+	background: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+}
+
+
+.container .formBx{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.container .formBx h1{
+	color: #ffffff;
+	font-size: 80px;
+	font-weight: bold;
+	width: 1200px;
+
+	line-height: 100px;
+	
+
+}
+
+.container .formBx form{
+	position: relative;
+	width: 50%;
+	padding: 0px;
+}
+
+.container .formBx form label{
+	color: #fff;
+	font-weight: bold;
+	font-size: 10em;
+	letter-spacing: 0.5px;
+	margin-bottom: 40px;
+
+}
+
+.container .formBx form .inputBox{
+	position: relative;
+	margin-bottom: 40px;
+
+}
+
+.container .formBx form .inputBox:last-child{
+	margin-bottom: 10px;
+
+}
+
+.container .formBx form .inputBox input{
+	position: relative;
+	background: transparent;
+	outline: none;
+	border: none;
+	width: 400%;
+	color: #fff;
+	padding-bottom: 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	border-bottom: 2px solid rgba(255,255,255,0.5);
+	resize: none;
+}
+
+.container .formBx form .inputBox textarea{
+	height: 400px;
+}
+
+.container .formBx form .inputBox input[type="submit"]{
+	background: #fff;
+	padding: 10px 20px;
+	margin-top: -10px;
+	width: 110px;
+	cursor: pointer;
+	background: #C8FAE2;
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 25px;
+
+}
+
+.container .formBx form .inputBox input[type="submit"]:focus{
+	background: #fff;
+	color: #111;
+}
+
+.container .formBx form .inputBox label{
+	position: absolute;
+	left: 0px;
+	font-size: 16px;
+	font-weight: 300px;
+	display: inline-block;
+	pointer-events: none;
+	letter-spacing: 1px;
+	color: rgb(255,255,255,0.5);
+	transition: all 0.2s;
+
+}
+.container .formBx form .inputBox textarea{
+	position: relative;
+	background: transparent;
+	outline: none;
+	border: none;
+	width: 400%;
+	color: #919c9e;
+	padding-bottom: 10px;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-weight: bold;
+	border-bottom: 2px solid rgba(255,255,255,0.5);
+	resize: none;
+
+
+}
+
+
